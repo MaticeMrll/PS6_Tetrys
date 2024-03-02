@@ -1,0 +1,68 @@
+
+.game-container{
+    display: flex;
+    background-color: lightblue;
+    height: 100vh;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    height: 90vh;
+}
+
+.jeu_tetrys{
+    display: inline-block;
+    height: 95%;
+    margin-top: auto;
+    margin-left: 25px;
+
+}
+
+.jeu_tetrys img{
+    max-height: 100%;
+    display: block;
+}
+
+.separation{
+    display: block;
+    width: 6px;
+    height: 80%;
+    background-color: grey;
+    margin-top: 20%;
+    margin-left: 5vw;
+}
+
+.playable-content{
+    flex: 3;
+    display: inline;
+}
+
+.logo-container{
+    margin-left: 45%;
+    height: 20%;
+    text-align: center;
+    display: block;
+}
+
+.logo-container img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.words-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.wrinting-space{
+    margin-top: 9%;
+    width: 70%;
+    margin-left: 15%;
+}

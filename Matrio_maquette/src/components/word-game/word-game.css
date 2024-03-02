@@ -1,0 +1,6 @@
+.word{
+    display: block;
+    text-align: center;
+    background-color: lightpink;
+    border: black solid 1px;
+}

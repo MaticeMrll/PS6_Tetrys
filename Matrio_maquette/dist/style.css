@@ -1,6 +1,164 @@
-/* Content from src/pages\page1\page1.css */
-.page1 {
-    color: red;
+/* Content from src/components/title/title.css */
+.title {
+    color: rgb(255, 255, 255);
+}
+/* Content from src/components/form/form.css */
+
+.form-cell {
+    margin-bottom: 15px;
+}
+
+.form-cell label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-cell input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Content from src/pages\page2\page2.css */
+.page2 {
+    color: blue;
+}
+/* Content from src/pages\game\game.css */
+
+.game-container{
+    display: flex;
+    background-color: lightblue;
+    height: 100vh;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    height: 90vh;
+}
+
+.jeu_tetrys{
+    display: inline-block;
+    height: 95%;
+    margin-top: auto;
+    margin-left: 25px;
+
+}
+
+.jeu_tetrys img{
+    max-height: 100%;
+    display: block;
+}
+
+.separation{
+    display: block;
+    width: 6px;
+    height: 80%;
+    background-color: grey;
+    margin-top: 20%;
+    margin-left: 5vw;
+}
+
+.playable-content{
+    flex: 3;
+    display: inline;
+}
+
+.logo-container{
+    margin-left: 45%;
+    height: 20%;
+    text-align: center;
+    display: block;
+}
+
+.logo-container img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.words-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.wrinting-space{
+    margin-top: 9%;
+    width: 70%;
+    margin-left: 15%;
+}
+/* Content from src/./components/form/form.css */
+
+.form-cell {
+    margin-bottom: 15px;
+}
+
+.form-cell label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-cell input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Content from src/components/login/login.css */
+.login-container{
+    width: 70%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container img{
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Content from src/pages\index.css */
 html {
@@ -75,11 +233,43 @@ a{
 .card {
     color: white;
 }
-/* Content from src/components/title/title.css */
-.title {
-    color: rgb(255, 255, 255);
+/* Content from src/components/barreNavigation/barreNavigation.css */
+.navbar {
+    background-color: #333;
 }
-/* Content from src/pages\page2\page2.css */
-.page2 {
-    color: blue;
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    flex: 1; /* chaque item prend autant de place*/
+    background-color: red;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+    background-color: green;
+}
+
+/* Content from src/pages\page1\page1.css */
+.page1 {
+    color: red;
+}
+/* Content from src/components/word-game/word-game.css */
+.word{
+    display: block;
+    text-align: center;
+    background-color: lightpink;
+    border: black solid 1px;
 }

@@ -103,8 +103,8 @@ aside {
 .popup{
     position: fixed;
     top: 20%;
-    left: 15%;
-    width: 70%;
+    left: 30%;
+    width: 40%;
     height: 60%;
     background-color: #FF931E;
     border-radius: 20px;
@@ -112,18 +112,23 @@ aside {
     text-align: center;
 }
 
-.popup .form-cell{
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 50px;
-    width: 93%;
+.level{
+    display: block;
+    border: #333333 solid 2px;
+    padding: 20px 0;
+    margin: 0 15% 4% 15%;
+    border-radius: 20px;
 }
 
-.popup .form-cell input[type=text]{
-    margin-top: 10px;
+#debutant{
+    background-color: lightgreen;
 }
-
-
-.form-cell label input[type=radio] {
-    width: auto;
+#intermediaire{
+    background-color: lightblue;
+}
+#avance{
+    background-color: palevioletred;
+}
+#perso{
+    background-color: palegoldenrod;
 }

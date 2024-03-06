@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>Config</title>
 <link href="./style.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+<title>Pre-game</title>
 </head>
 <body>
 <div class="navbar">
@@ -50,22 +50,27 @@
 </div>
 <div class="popup">
 <div class="popup-content">
-<h2>Caractéristiques de la configuration de la partie</h2>
-<div class="form-cell">
-<label for="username"> Temps maximum par tour </label>
-<input name="username" placeholder="Actual: 8 sec" required="" type="text"/>
+<h2>Choix du niveau</h2>
+<a href="/pre-game.html">
+<div class="level" id="debutant">
+<span>Débutant</span>
 </div>
-<div class="form-cell">
-<label for="username"> Longueur maximale de mot </label>
-<input id="username" name="username" placeholder="Actual: 10" required="" type="text"/>
+</a>
+<a href="/pre-game.html">
+<div class="level" id="intermediaire">
+<span>Intermediaire</span>
 </div>
-<div class="form-cell">
-<div>
-<span> <strong> Droit à l'erreur: </strong> </span>
+</a>
+<a href="/game.html">
+<div class="level" id="avance">
+<span>Avancé</span>
 </div>
-<label> <input name="erreur" type="radio"/> <span>oui</span> </label>
-<label> <input name="erreur" type="radio"/> <span>non</span> </label>
+</a>
+<a href="/pre-game.html">
+<div class="level" id="perso">
+<span>Personnalisé</span>
 </div>
+</a>
 </div>
 </div>
 </div>

@@ -87,12 +87,25 @@ aside {
     margin-left: 15%;
 }
 
+
+.chrono-container{
+    margin-top: 3%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.chrono img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
 .popup{
     position: fixed;
-    top: 15%;
+    top: 20%;
     left: 15%;
     width: 70%;
-    height: 70%;
+    height: 60%;
     background-color: #FF931E;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 30.0);
@@ -104,4 +117,13 @@ aside {
     margin-left: 20px;
     margin-top: 50px;
     width: 93%;
+}
+
+.popup .form-cell input[type=text]{
+    margin-top: 10px;
+}
+
+
+.form-cell label input[type=radio] {
+    width: auto;
 }

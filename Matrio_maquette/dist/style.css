@@ -106,11 +106,20 @@ aside {
 .jeu_tetrys{
     display: inline-block;
     height: 95%;
-    margin-top: auto;
+    margin-top: 25px;
     margin-left: 25px;
 }
 
 .jeu_tetrys img{
+    max-height: 100%;
+    display: block;
+}
+.jeu_tetrys a{
+    max-height: 100%;
+    display: block;
+}
+
+.jeu_tetrys a img{
     max-height: 100%;
     display: block;
 }
@@ -133,10 +142,22 @@ aside {
     margin-left: 43%;
     height: 20%;
     text-align: center;
-    display: block;
+    display: inline-block;
 }
 
 .logo-container img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.playable-content a{
+    margin-left: 43%;
+    height: 20%;
+    text-align: center;
+    display: block;
+}
+.playable-content a img{
     max-height: 100%;
     max-width: 100%;
     display: block;
@@ -156,81 +177,71 @@ aside {
     width: 70%;
     margin-left: 15%;
 }
-/* Content from src/components/title/title.css */
-.title {
-    color: rgb(255, 255, 255);
-}
-/* Content from src/components/barreNavigation/barreNavigation.css */
-.navbar {
-    background-color: #333;
-}
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar ul li {
-    flex: 1; /* chaque item prend autant de place*/
-    background-color: red;
-}
-
-.navbar ul li a {
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
+.popup{
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    background-color: #FF931E;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 30.0);
     text-align: center;
 }
 
-.navbar ul li a:hover {
-    background-color: green;
+.popup .form-cell{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 93%;
 }
-
+/* Content from src/components/stat-graph/stat-graph.css */
+.graph-container{
+    display: flex;
+    flex-direction: row;
+}
+/* Content from src/components/student/student.css */
+.student-container{
+    display: flex;
+    margin-top: 20px;
+}
 /* Content from src/components/logo-container/logo-container.css */
 
-/* Content from src/components/form/form.css */
-
-.form-cell {
-    margin-bottom: 15px;
-}
-
-.form-cell label {
-    display: block;
-    font-weight: bold;
-}
-
-.form-cell input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-/* Content from src/components/word-game/word-game.css */
-.word{
-    display: block;
-    text-align: center;
-    background-color: lightpink;
-    border: black solid 1px;
+/* Content from src/pages\page2\page2.css */
+.page2 {
+    color: blue;
 }
 /* Content from src/pages\statistiques\statistiques.css */
+.stat-container{
+    display: flex;
+    height: 100vh;
+}
+
+
+
+aside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.student-list{
+    height: 80%;
+    border: black 2px solid;
+    margin-bottom: 15%;
+}
+
+.student-list img{
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.stat{
+    flex: 4;
+    display: inline;
+}
 
 /* Content from src/components/template/template.css */
 .template {
@@ -264,38 +275,98 @@ button:hover {
     display: flex;
     object-fit: contain;
 }
-/* Content from src/components/login/login.css */
-.login-container{
-    width: 70%;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
+/* Content from src/pages\game\game.css */
+
+.game-container{
+    display: flex;
+    background-color: lightblue;
+    height: 100vh;
 }
 
-.login-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    height: 90vh;
 }
 
-.login-container img{
+.jeu_tetrys{
+    display: inline-block;
+    height: 95%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.jeu_tetrys img{
+    max-height: 100%;
     display: block;
-    width: 20%;
+}
+.jeu_tetrys a{
+    max-height: 100%;
+    display: block;
+}
+
+.jeu_tetrys a img{
+    max-height: 100%;
+    display: block;
+}
+
+.separation{
+    display: block;
+    width: 6px;
+    height: 80%;
+    background-color: grey;
+    margin-top: 20%;
+    margin-left: 5vw;
+}
+
+.playable-content{
+    flex: 3;
+    display: inline;
+}
+
+.logo-container{
+    margin-left: 43%;
     height: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.logo-container img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.playable-content a{
+    margin-left: 43%;
+    height: 20%;
+    text-align: center;
+    display: block;
+}
+.playable-content a img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.words-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.writing-space{
+    margin-top: 9%;
+    width: 70%;
+    margin-left: 15%;
 }
 /* Content from src/components/card/card.css */
 .card {
     color: white;
-}
-/* Content from src/pages\page1\page1.css */
-.page1 {
-    color: red;
-}
-/* Content from src/pages\page2\page2.css */
-.page2 {
-    color: blue;
 }
 /* Content from src/pages\index.css */
 html {
@@ -333,4 +404,12 @@ body {
 a{
   -webkit-text-fill-color:  black;
   text-decoration-line: none;
+}
+/* Content from src/components/word-game/word-game.css */
+.word{
+    display: block;
+    text-align: center;
+    background-color: lightpink;
+    border: black solid 1px;
+    border-radius: 30px;
 }

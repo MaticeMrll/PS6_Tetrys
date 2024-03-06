@@ -15,7 +15,7 @@ aside {
 .jeu_tetrys{
     display: inline-block;
     height: 95%;
-    margin-top: auto;
+    margin-top: 25px;
     margin-left: 25px;
 }
 
@@ -95,7 +95,7 @@ aside {
     height: 70%;
     background-color: #FF931E;
     border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 30.3);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 30.0);
     text-align: center;
 }
 

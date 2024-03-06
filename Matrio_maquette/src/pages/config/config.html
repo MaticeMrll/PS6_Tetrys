@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Config</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+    <matrio path="components/barreNavigation/barreNavigation"></matrio>
+
+    <div class="game-container">
+        <aside>
+            <div class="jeu_tetrys">
+                <img src="./assets/ex_tetrys.png" alt="zone de jeu">
+            </div>
+            <div class="separation"></div>
+        </aside>
+
+        <div class="playable-content">
+            <matrio path="components/logo-container/logo-container"> </matrio>
+            <div class="words-container">
+                <matrio path="components/word-game/word-game">Bonjour</matrio>
+                <matrio path="components/word-game/word-game">Salut</matrio>
+                <matrio path="components/word-game/word-game">Bienvenue</matrio>
+            </div>
+
+            <div class="writing-space">
+                <matrio path="components/form/form"> Rentrer un des 3 mots ci-dessus </matrio>
+            </div>
+        </div>
+
+        <div class="popup">
+            <div class="popup-content">
+                <h2>Caractéristiques de la configuration de la partie</h2>
+                <matrio path="components/form/form"> Saisissez le temps maximum par tour</matrio>
+                <matrio path="components/form/form"> Saisissez la longueur maximale des mots </matrio>
+                <matrio path="components/form/form"> Rentrer un des 3 mots ci-dessus </matrio>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>

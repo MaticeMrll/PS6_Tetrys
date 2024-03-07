@@ -48,28 +48,16 @@ aside {
 }
 
 .logo-container{
-    margin-left: 43%;
+    justify-content: center;
     height: 20%;
     text-align: center;
-    display: inline-block;
+    display: flex;
 }
 
 .logo-container img{
     max-height: 100%;
     max-width: 100%;
-    display: block;
-}
-
-.playable-content a{
-    margin-left: 43%;
-    height: 20%;
-    text-align: center;
-    display: block;
-}
-.playable-content a img{
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
+    display: flex;
 }
 
 .words-container{

@@ -38,7 +38,10 @@
 <div class="writing-space">
 <div class="form-cell">
 <label for="username"> <p>Rentrer un des 3 mots ci-dessus </p> </label>
+<div class="input-container">
 <input id="username" name="username" required="" type="text"/>
+<button>Valider</button>
+</div>
 </div>
 
 </div>
@@ -47,10 +50,21 @@
 <img alt="chrono-image" src="./assets/chrono.png"/>
 </div>
 </div>
-<div class="end-button">
-<a href="./endGameStat.html"><button class="end-button" id="end-game-button">Fin de Partie</button></a>
+<div class="features-button-container">
+<div class="button-container">
+<a class="features-button-1" href="/endGameStat.html"><button>Fin de Partie</button>
+</a></div>
+<div class="button-container">
+<a class="features-button-2" href="#">
+<button id="mauvaise-reponse">Mauvaise Réponse</button>
+</a>
 </div>
+<div class="button-container">
+<a class="features-button-3" href="#">
+<button id="bonne-reponse">Bonne Réponse</button>
+</a>
 </div>
+</div></div>
 </div>
 <script src="scripts/websockets.js"></script></body>
 </html>

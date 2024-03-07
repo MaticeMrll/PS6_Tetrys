@@ -15,7 +15,7 @@
     border-radius: 5px;
 }
 
-button {
+.form-cell button {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -26,6 +26,21 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+.form-cell button:hover {
     background-color: #0056b3;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+.input-container input{
+    flex: 5;
+}
+
+.input-container button{
+    flex: 1;
 }

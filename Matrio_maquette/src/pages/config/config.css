@@ -87,6 +87,7 @@ aside {
     margin-left: 15%;
 }
 
+
 .chrono-container{
     margin-top: 3%;
     width: 40%;
@@ -99,6 +100,30 @@ aside {
     display: block;
 }
 
-button.end-button{
-    margin: 20px auto;
+.popup{
+    position: fixed;
+    top: 20%;
+    left: 15%;
+    width: 70%;
+    height: 60%;
+    background-color: #FF931E;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 30.0);
+    text-align: center;
+}
+
+.popup .form-cell{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 93%;
+}
+
+.popup .form-cell input[type=text]{
+    margin-top: 10px;
+}
+
+
+.form-cell label input[type=radio] {
+    width: auto;
 }

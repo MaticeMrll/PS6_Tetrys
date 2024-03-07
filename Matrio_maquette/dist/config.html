@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<title>Config</title>
 <link href="./style.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
-<title>Tetrys</title>
 </head>
 <body>
 <div class="navbar">
@@ -47,8 +47,25 @@
 <img alt="chrono-image" src="./assets/chrono.png"/>
 </div>
 </div>
-<div class="end-button">
-<a href="./endGameStat.html"><button class="end-button" id="end-game-button">Fin de Partie</button></a>
+</div>
+<div class="popup">
+<div class="popup-content">
+<h2>Caractéristiques de la configuration de la partie</h2>
+<div class="form-cell">
+<label for="username"> Temps maximum par tour </label>
+<input name="username" placeholder="Actual: 8 sec" required="" type="text"/>
+</div>
+<div class="form-cell">
+<label for="username"> Longueur maximale de mot </label>
+<input id="username" name="username" placeholder="Actual: 10" required="" type="text"/>
+</div>
+<div class="form-cell">
+<div>
+<span> <strong> Droit à l'erreur: </strong> </span>
+</div>
+<label> <input name="erreur" type="radio"/> <span>oui</span> </label>
+<label> <input name="erreur" type="radio"/> <span>non</span> </label>
+</div>
 </div>
 </div>
 </div>

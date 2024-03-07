@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Config</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <title>Tetrys</title>
 </head>
 <body>
     <matrio path="components/barreNavigation/barreNavigation"></matrio>
@@ -28,13 +28,35 @@
             <div class="writing-space">
                 <matrio path="components/form/form"> Rentrer un des 3 mots ci-dessus </matrio>
             </div>
-            <div class="end-button">
-                <a href="./endGameStat.html"><button class="end-button" id="end-game-button">Fin de Partie</button></a>
 
             <div class="chrono-container">
                 <matrio path="components/chrono/chrono"></matrio>
             </div>
         </div>
+
+        <div class="popup">
+            <div class="popup-content">
+                <h2>Caractéristiques de la configuration de la partie</h2>
+                <div class="form-cell">
+                    <label for="username"> Temps maximum par tour </label>
+                    <input type="text" placeholder="Actual: 8 sec" name="username" required>
+                </div>
+                <div class="form-cell">
+                    <label for="username"> Longueur maximale de mot </label>
+                    <input type="text" placeholder="Actual: 10" id="username" name="username" required>
+                </div>
+                <div class="form-cell">
+                    <div>
+                        <span> <strong> Droit à l'erreur: </strong>  </span>
+                    </div>
+                    <label> <input type="radio" name="erreur"> <span>oui</span> </label>
+                    <label> <input type="radio" name="erreur"> <span>non</span> </label>
+                </div>
+            </div>
+        </div>
+
+
     </div>
+
 </body>
 </html>

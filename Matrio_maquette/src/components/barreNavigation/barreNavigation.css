@@ -11,7 +11,7 @@
 
 .navbar ul li {
     flex: 1; /* chaque item prend autant de place*/
-    background-color: red;
+    background-color: palevioletred;
 }
 
 .navbar ul li a {

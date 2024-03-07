@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <title>Tetrys</title>
+    <title>Pre-game</title>
 </head>
 <body>
     <matrio path="components/barreNavigation/barreNavigation"></matrio>
@@ -28,13 +28,38 @@
             <div class="writing-space">
                 <matrio path="components/form/form"> Rentrer un des 3 mots ci-dessus </matrio>
             </div>
-            <div class="end-button">
-                <a href="./endGameStat.html"><button class="end-button" id="end-game-button">Fin de Partie</button></a>
 
             <div class="chrono-container">
                 <matrio path="components/chrono/chrono"></matrio>
             </div>
         </div>
+
+        <div class="popup">
+            <div class="popup-content">
+                <h2>Choix du niveau</h2>
+                <a href="/pre-game.html">
+                    <div class="level" id="debutant">
+                       <span>Débutant</span>
+                    </div>
+                </a>
+                <a href="/pre-game.html">
+                    <div class="level" id="intermediaire">
+                         <span>Intermediaire</span>
+                    </div>
+                </a>
+                <a href="/game.html">
+                    <div class="level" id="avance">
+                         <span>Avancé</span>
+                    </div>
+                </a>
+                <a href="/pre-game.html">
+                    <div class="level" id="perso">
+                        <span>Personnalisé</span>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
+
 </body>
 </html>

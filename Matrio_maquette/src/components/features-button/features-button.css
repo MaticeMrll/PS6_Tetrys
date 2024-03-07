@@ -1,0 +1,47 @@
+.features-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin: 0 10px;
+    display: flex;
+    text-align: center;
+}
+
+.button-container a{
+    -webkit-text-fill-color: #fff;
+}
+
+.features-button-1 button {
+    background-color: #007bff; 
+}
+
+.features-button-2 button {
+    background-color: #dc3545; 
+}
+
+.features-button-3 button {
+    background-color: #28a745; 
+}
+
+.features-button-1 button ,
+.features-button-2 button,
+.features-button-3 button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+
+.features-button-1 button:hover ,
+.features-button-2 button:hover,
+.features-button-3 button:hover {
+    transform: scale(1.05);
+    color: #fff;
+}

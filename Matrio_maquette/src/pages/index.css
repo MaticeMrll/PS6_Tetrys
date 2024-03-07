@@ -28,6 +28,8 @@ body {
   background-color: #70778e;
   border-radius: 0.5rem;
   margin-top: 1rem;
+  margin: 20px;
+  padding: 20px;
 }
 
 a{

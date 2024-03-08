@@ -1,0 +1,46 @@
+
+.form-cell {
+    margin-bottom: 15px;
+}
+
+.form-cell label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-cell input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-cell button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-cell button:hover {
+    background-color: #0056b3;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+.input-container input{
+    flex: 5;
+}
+
+.input-container button{
+    flex: 1;
+}

@@ -1,548 +1,3 @@
-/* Content from src/components/features-button/features-button.css */
-.features-button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.button-container {
-    margin: 0 10px;
-    display: flex;
-    text-align: center;
-}
-
-.button-container a{
-    -webkit-text-fill-color: #fff;
-}
-
-.features-button-1 button {
-    background-color: #007bff; 
-}
-
-.features-button-2 button {
-    background-color: #dc3545; 
-}
-
-.features-button-3 button {
-    background-color: #28a745; 
-}
-
-.features-button-1 button ,
-.features-button-2 button,
-.features-button-3 button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.1s ease-in-out;
-}
-
-
-.features-button-1 button:hover ,
-.features-button-2 button:hover,
-.features-button-3 button:hover {
-    transform: scale(1.05);
-    color: #fff;
-}
-
-/* Content from src/pages\statistiques\statistiques.css */
-.stat-container{
-    display: flex;
-    height: 100vh;
-}
-
-
-
-aside{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
-.student-list{
-    height: 80%;
-    border: black 2px solid;
-    margin-bottom: 15%;
-}
-
-.student-list img{
-    max-height: 50%;
-    max-width: 50%;
-}
-
-.stat{
-    flex: 4;
-    display: inline;
-}
-
-/* Content from src/components/barreNavigation/barreNavigation.css */
-.navbar {
-    background-color: #333;
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar ul li {
-    flex: 1; /* chaque item prend autant de place*/
-    background-color: palevioletred;
-}
-
-.navbar ul li a {
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-}
-
-.navbar ul li a:hover {
-    background-color: green;
-}
-
-/* Content from src/pages\game\game.css */
-
-.game-container{
-    display: flex;
-    background-color: lightblue;
-    height: 100vh;
-}
-
-aside {
-    flex: 1;
-    display: flex;
-    justify-content: left;
-    height: 90vh;
-}
-
-.jeu_tetrys{
-    display: inline-block;
-    height: 95%;
-    margin-top: 25px;
-    margin-left: 25px;
-}
-
-.jeu_tetrys img{
-    max-height: 100%;
-    display: block;
-}
-.jeu_tetrys a{
-    max-height: 100%;
-    display: block;
-}
-
-.jeu_tetrys a img{
-    max-height: 100%;
-    display: block;
-}
-
-.separation{
-    display: block;
-    width: 6px;
-    height: 80%;
-    background-color: grey;
-    margin-top: 20%;
-    margin-left: 5vw;
-}
-
-.playable-content{
-    flex: 3;
-    display: inline;
-}
-
-.logo-container{
-    justify-content: center;
-    height: 20%;
-    text-align: center;
-    display: flex;
-}
-
-.logo-container img{
-    max-height: 100%;
-    max-width: 100%;
-    display: flex;
-}
-
-.words-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 8%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 8%;
-}
-
-.writing-space{
-    margin-top: 6%;
-    width: 70%;
-    margin-left: 15%;
-}
-
-.chrono-container{
-    margin-top: 3%;
-    width: 40%;
-    margin-left: 30%;
-}
-
-.chrono img{
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-}
-
-button.end-button{
-    margin: 20px auto;
-}
-/* Content from src/pages\config\config.css */
-
-.game-container{
-    display: flex;
-    background-color: lightblue;
-    height: 100vh;
-}
-
-aside {
-    flex: 1;
-    display: flex;
-    justify-content: left;
-    height: 90vh;
-}
-
-.jeu_tetrys{
-    display: inline-block;
-    height: 95%;
-    margin-top: 25px;
-    margin-left: 25px;
-}
-
-.jeu_tetrys img{
-    max-height: 100%;
-    display: block;
-}
-.jeu_tetrys a{
-    max-height: 100%;
-    display: block;
-}
-
-.jeu_tetrys a img{
-    max-height: 100%;
-    display: block;
-}
-
-.separation{
-    display: block;
-    width: 6px;
-    height: 80%;
-    background-color: grey;
-    margin-top: 20%;
-    margin-left: 5vw;
-}
-
-.playable-content{
-    flex: 3;
-    display: inline;
-}
-
-.logo-container{
-    justify-content: center;
-    height: 20%;
-    text-align: center;
-    display: flex;
-}
-
-.logo-container img{
-    max-height: 100%;
-    max-width: 100%;
-    display: flex;
-}
-
-
-.words-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 8%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 8%;
-}
-
-.writing-space{
-    margin-top: 6%;
-    width: 70%;
-    margin-left: 15%;
-}
-
-
-.chrono-container{
-    margin-top: 3%;
-    width: 40%;
-    margin-left: 30%;
-}
-
-.chrono img{
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-}
-
-.popup{
-    position: fixed;
-    top: 20%;
-    left: 15%;
-    width: 70%;
-    height: 60%;
-    background-color: #FF931E;
-    border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 30.0);
-    text-align: center;
-}
-
-.popup .form-cell{
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 50px;
-    width: 93%;
-}
-
-.popup .form-cell input[type=text]{
-    margin-top: 10px;
-}
-
-
-.form-cell label input[type=radio] {
-    width: auto;
-}
-/* Content from src/components/chrono/chrono.css */
-
-/* Content from src/pages\page1\page1.css */
-.page1 {
-    color: red;
-}
-/* Content from src/pages\pre-game\pre-game.css */
-
-.game-container{
-    display: flex;
-    background-color: lightblue;
-    height: 100vh;
-}
-
-aside {
-    flex: 1;
-    display: flex;
-    justify-content: left;
-    height: 90vh;
-}
-
-.jeu_tetrys{
-    display: inline-block;
-    height: 95%;
-    margin-top: 25px;
-    margin-left: 25px;
-}
-
-.jeu_tetrys img{
-    max-height: 100%;
-    display: block;
-}
-.jeu_tetrys a{
-    max-height: 100%;
-    display: block;
-}
-
-.jeu_tetrys a img{
-    max-height: 100%;
-    display: block;
-}
-
-.separation{
-    display: block;
-    width: 6px;
-    height: 80%;
-    background-color: grey;
-    margin-top: 20%;
-    margin-left: 5vw;
-}
-
-.playable-content{
-    flex: 3;
-    display: inline;
-}
-
-.logo-container{
-    justify-content: center;
-    height: 20%;
-    text-align: center;
-    display: flex;
-}
-
-.logo-container img{
-    max-height: 100%;
-    max-width: 100%;
-    display: flex;
-}
-
-.popup a{
-    height: 20%;
-    text-align: center;
-    display: block;
-}
-.popup a img{
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-}
-
-.words-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 8%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 8%;
-}
-
-.writing-space{
-    margin-top: 6%;
-    width: 70%;
-    margin-left: 15%;
-}
-
-
-.chrono-container{
-    margin-top: 3%;
-    width: 40%;
-    margin-left: 30%;
-}
-
-.chrono img{
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-}
-
-.popup{
-    position: fixed;
-    top: 20%;
-    left: 30%;
-    width: 40%;
-    height: 60%;
-    background-color: #FF931E;
-    border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 30.0);
-    text-align: center;
-}
-
-.level{
-    display: block;
-    border: #333333 solid 2px;
-    padding: 20px 0;
-    margin: 0 15% 4% 15%;
-    border-radius: 20px;
-}
-
-#debutant{
-    background-color: lightgreen;
-}
-#intermediaire{
-    background-color: lightblue;
-}
-#avance{
-    background-color: palevioletred;
-}
-#perso{
-    background-color: palegoldenrod;
-}
-/* Content from src/components/student/student.css */
-.student-container{
-    display: flex;
-    margin-top: 20px;
-}
-/* Content from src/components/title/title.css */
-.title {
-    color: rgb(255, 255, 255);
-}
-/* Content from src/pages\index.css */
-html {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Roboto', sans-serif;
-}
-
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.card {
-  display: flex;
-  min-width: 300px;
-  width: 100%;
-  height: 4rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #70778e;
-  border-radius: 0.5rem;
-  margin-top: 1rem;
-  margin: 20px;
-  padding: 20px;
-}
-
-a{
-  -webkit-text-fill-color:  black;
-  text-decoration-line: none;
-}
-/* Content from src/components/logo-container/logo-container.css */
-
-/* Content from src/components/word-game/word-game.css */
-.word{
-    display: block;
-    text-align: center;
-    background-color: lightpink;
-    border: black solid 1px;
-    border-radius: 30px;
-}
-/* Content from src/components/login/login.css */
-.login-container{
-    width: 70%;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-}
-
-.login-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.login-container img{
-    display: block;
-    width: 20%;
-    height: 20%;
-    margin-left: auto;
-    margin-right: auto;
-}
-/* Content from src/components/stat-graph/stat-graph.css */
-.graph-container{
-    display: flex;
-    flex-direction: row;
-}
 /* Content from src/pages\game\endGameStat.css */
 .end-stat-container {
     position: fixed;
@@ -705,45 +160,498 @@ aside {
     width: 70%;
     margin-left: 15%;
 }
-/* Content from src/pages\page2\page2.css */
-.page2 {
-    color: blue;
+/* Content from src/pages\login\login.css */
+.page1 {
+    color: red;
 }
+/* Content from src/components/barreNavigation/barreNavigation.css */
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    flex: 1; /* chaque item prend autant de place*/
+    background-color: palevioletred;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+    background-color: green;
+}
+
+/* Content from src/components/features-button/features-button.css */
+.features-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin: 0 10px;
+    display: flex;
+    text-align: center;
+}
+
+.button-container a{
+    -webkit-text-fill-color: #fff;
+}
+
+.features-button-1 button {
+    background-color: #007bff; 
+}
+
+.features-button-2 button {
+    background-color: #dc3545; 
+}
+
+.features-button-3 button {
+    background-color: #28a745; 
+}
+
+.features-button-1 button ,
+.features-button-2 button,
+.features-button-3 button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+
+.features-button-1 button:hover ,
+.features-button-2 button:hover,
+.features-button-3 button:hover {
+    transform: scale(1.05);
+    color: #fff;
+}
+
 /* Content from src/components/template/template.css */
 .template {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    background-color: #304673   ;
+}
+
+.template-container h1{
+    font-weight: 900;
+    color: #ACF2EB;
+    font-size: 70px;
+    margin: 0;
 }
 
 .template .template-container {
-    padding: 20px;
-    min-width: 100%;
+    margin: 50px;
+    width: 100%;;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-y: scroll;
+    overflow: hidden;
     flex-direction: column;
 }
 
-.matrio-logo {
-    width: 40%;
-    height: 50%;
-    display: flex;
-}
 
 .matrio-logo img {
     width: 100%;
     height: 100%;
     display: flex;
-    object-fit: contain;
+    margin: 0;
 }
-/* Content from src/components/card/card.css */
-.card {
-    color: white;
+/* Content from src/components/login-input/login-input.css */
+
+.form-cell {
+    margin-bottom: 15px;
+}
+
+.form-cell label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-cell input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-cell button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-cell button:hover {
+    background-color: #0056b3;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+.input-container input{
+    flex: 5;
+}
+
+.input-container button{
+    flex: 1;
+}
+/* Content from src/pages\statistiques\statistiques.css */
+.stat-container{
+    display: flex;
+    height: 100vh;
+}
+
+
+
+aside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.student-list{
+    height: 80%;
+    border: black 2px solid;
+    margin-bottom: 15%;
+}
+
+.student-list img{
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.stat{
+    flex: 4;
+    display: inline;
+}
+
+/* Content from src/pages\pre-game\pre-game.css */
+
+.game-container{
+    display: flex;
+    background-color: lightblue;
+    height: 100vh;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    height: 90vh;
+}
+
+.jeu_tetrys{
+    display: inline-block;
+    height: 95%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.jeu_tetrys img{
+    max-height: 100%;
+    display: block;
+}
+.jeu_tetrys a{
+    max-height: 100%;
+    display: block;
+}
+
+.jeu_tetrys a img{
+    max-height: 100%;
+    display: block;
+}
+
+.separation{
+    display: block;
+    width: 6px;
+    height: 80%;
+    background-color: grey;
+    margin-top: 20%;
+    margin-left: 5vw;
+}
+
+.playable-content{
+    flex: 3;
+    display: inline;
+}
+
+.logo-container{
+    justify-content: center;
+    height: 20%;
+    text-align: center;
+    display: flex;
+}
+
+.logo-container img{
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+.popup a{
+    height: 20%;
+    text-align: center;
+    display: block;
+}
+.popup a img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.words-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.writing-space{
+    margin-top: 6%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+.chrono-container{
+    margin-top: 3%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.chrono img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.popup{
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    height: 60%;
+    background-color: #FF931E;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 30.0);
+    text-align: center;
+}
+
+.level{
+    display: block;
+    border: #333333 solid 2px;
+    padding: 20px 0;
+    margin: 0 15% 4% 15%;
+    border-radius: 20px;
+}
+
+#debutant{
+    background-color: lightgreen;
+}
+#intermediaire{
+    background-color: lightblue;
+}
+#avance{
+    background-color: palevioletred;
+}
+#perso{
+    background-color: palegoldenrod;
+}
+/* Content from src/components/student/student.css */
+.student-container{
+    display: flex;
+    margin-top: 20px;
+}
+/* Content from src/components/login/login.css */
+.login-container{
+    width: 70%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container img{
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Content from src/components/logo-container/logo-container.css */
+
+/* Content from src/components/word-game/word-game.css */
+.word{
+    display: block;
+    text-align: center;
+    background-color: lightpink;
+    border: black solid 1px;
+    border-radius: 30px;
+}
+/* Content from src/components/stat-graph/stat-graph.css */
+.graph-container{
+    display: flex;
+    flex-direction: row;
+}
+/* Content from src/pages\config\config.css */
+
+.game-container{
+    display: flex;
+    background-color: lightblue;
+    height: 100vh;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    height: 90vh;
+}
+
+.jeu_tetrys{
+    display: inline-block;
+    height: 95%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.jeu_tetrys img{
+    max-height: 100%;
+    display: block;
+}
+.jeu_tetrys a{
+    max-height: 100%;
+    display: block;
+}
+
+.jeu_tetrys a img{
+    max-height: 100%;
+    display: block;
+}
+
+.separation{
+    display: block;
+    width: 6px;
+    height: 80%;
+    background-color: grey;
+    margin-top: 20%;
+    margin-left: 5vw;
+}
+
+.playable-content{
+    flex: 3;
+    display: inline;
+}
+
+.logo-container{
+    justify-content: center;
+    height: 20%;
+    text-align: center;
+    display: flex;
+}
+
+.logo-container img{
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+
+.words-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.writing-space{
+    margin-top: 6%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+.chrono-container{
+    margin-top: 3%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.chrono img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.popup{
+    position: fixed;
+    top: 20%;
+    left: 15%;
+    width: 70%;
+    height: 60%;
+    background-color: #FF931E;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 30.0);
+    text-align: center;
+}
+
+.popup .form-cell{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 93%;
+}
+
+.popup .form-cell input[type=text]{
+    margin-top: 10px;
+}
+
+
+.form-cell label input[type=radio] {
+    width: auto;
+}
+/* Content from src/pages\page2\page2.css */
+.page2 {
+    color: blue;
 }
 /* Content from src/components/form/form.css */
 
@@ -791,4 +699,138 @@ aside {
 
 .input-container button{
     flex: 1;
+}
+/* Content from src/pages\game\game.css */
+
+.game-container{
+    display: flex;
+    background-color: lightblue;
+    height: 100vh;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    height: 90vh;
+}
+
+.jeu_tetrys{
+    display: inline-block;
+    height: 95%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.jeu_tetrys img{
+    max-height: 100%;
+    display: block;
+}
+.jeu_tetrys a{
+    max-height: 100%;
+    display: block;
+}
+
+.jeu_tetrys a img{
+    max-height: 100%;
+    display: block;
+}
+
+.separation{
+    display: block;
+    width: 6px;
+    height: 80%;
+    background-color: grey;
+    margin-top: 20%;
+    margin-left: 5vw;
+}
+
+.playable-content{
+    flex: 3;
+    display: inline;
+}
+
+.logo-container{
+    justify-content: center;
+    height: 20%;
+    text-align: center;
+    display: flex;
+}
+
+.logo-container img{
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+.words-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.writing-space{
+    margin-top: 6%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.chrono-container{
+    margin-top: 3%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.chrono img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+button.end-button{
+    margin: 20px auto;
+}
+/* Content from src/components/chrono/chrono.css */
+
+/* Content from src/pages\index.css */
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  min-width: 300px;
+  width: 100%;
+  height: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #70778e;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin: 20px;
+  padding: 20px;
+}
+
+a{
+  -webkit-text-fill-color:  black;
+  text-decoration-line: none;
 }

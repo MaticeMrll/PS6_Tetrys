@@ -1,7 +1,7 @@
 
 .game-container{
     display: flex;
-    background-color: lightblue;
+    background-color: #304673;
     height: 100vh;
 }
 
@@ -67,7 +67,7 @@ aside {
     grid-gap: 8%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 8%;
+    margin-top: 10px;
 }
 
 .writing-space{

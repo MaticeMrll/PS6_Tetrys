@@ -1,13 +1,19 @@
 .word{
-    display: block;
+    display: flex;
     text-align: center;
     background-color: #F27F1B;
     box-shadow: 0px 0px 5px#F27F1B;
     border-radius: 30px;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    
 }
 
 .word P{
     color: #fff;
     font-weight: bold;
-    font-size: larger;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

@@ -3,7 +3,7 @@
     text-align: center;
     background-color: #F27F1B;
     box-shadow: 0px 0px 5px#F27F1B;
-    border-radius: 30px;
+    border-radius: 10px;
     justify-content: center;
     flex-grow: 1;
     width: 100%;
@@ -13,7 +13,7 @@
 .word P{
     color: #fff;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.4vw;
     margin-top: 10px;
     margin-bottom: 10px;
 }

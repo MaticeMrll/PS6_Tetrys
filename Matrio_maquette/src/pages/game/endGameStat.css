@@ -26,12 +26,12 @@
     margin: -2px auto 0;
     width: 150px;
     border-radius: 5px;
-    background-color: #4E89C8;
+    background-color: #304673;
     height: 130px;
     display: flex;
     justify-content: center;
     align-self: center;
-    border-top: 2px solid #4E89C8;
+    border-top: 2px solid #304673;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
@@ -39,7 +39,7 @@
 .vertical-bar a {
     margin: auto 0;  
     text-decoration: none;
-    -webkit-text-fill-color: #4E89C8;
+    -webkit-text-fill-color: #304673;
 }
 
 .vertical-bar button{
@@ -64,7 +64,7 @@
 .horizontal-bar {
     z-index: 2;
     height: 130px;
-    background-color: #4E89C8;
+    background-color: #304673;
     border: 2px solid #E01B24;
     width: 80%;
     margin: 80px auto 0;
@@ -75,6 +75,7 @@
     border-radius: 5px;
     flex-direction: column;
 }
+
 
 .score-text {
     font-size: 50px; 

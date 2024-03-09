@@ -60,12 +60,12 @@ aside {
     display: flex;
 }
 
-.popup a{
+.difficulty-container a{
     height: 20%;
     text-align: center;
     display: block;
 }
-.popup a img{
+.difficulty-container a img{
     max-height: 100%;
     max-width: 100%;
     display: block;
@@ -99,7 +99,7 @@ aside {
     display: block;
 }
 
-.popup{
+.difficulty-container{
     position: fixed;
     top: 20%;
     left: 30%;

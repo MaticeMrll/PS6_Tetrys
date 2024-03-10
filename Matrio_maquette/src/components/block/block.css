@@ -1,0 +1,19 @@
+.block{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-height:100%;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.block img {
+    max-width:100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+.word{
+    max-width: 100%;
+}

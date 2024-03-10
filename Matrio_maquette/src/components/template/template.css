@@ -31,4 +31,6 @@
     height: auto;
     display: flex;
     margin: 10px;
+    pointer-events: none;
+    cursor: none;
 }

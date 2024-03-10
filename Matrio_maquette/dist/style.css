@@ -1,3 +1,282 @@
+/* Content from src/pages\statistiques\statistiques.css */
+.stat-container{
+    display: flex;
+    height: 100vh;
+}
+
+
+
+aside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.student-list{
+    height: 80%;
+    border: black 2px solid;
+    margin-bottom: 15%;
+}
+
+.student-list img{
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.stat{
+    flex: 4;
+    display: inline;
+}
+
+/* Content from src/pages\index.css */
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  min-width: 300px;
+  width: 100%;
+  height: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #70778e;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin: 20px;
+  padding: 20px;
+}
+
+a{
+  -webkit-text-fill-color:  black;
+  text-decoration-line: none;
+}
+/* Content from src/components/chrono/chrono.css */
+
+/* Content from src/components/barreNavigation/barreNavigation.css */
+.logo {
+    padding: 2px;
+    width: auto;
+    height: 50px;
+    margin-left: 60px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.nav-container {
+    z-index: 2;
+    box-sizing: border-box;
+    background-color: #4a5d83;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 195px;
+    padding-left: 0px;
+    box-shadow: 0px 1px 10px #6BCCF2;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.navbar a {
+    -webkit-text-fill-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    
+}
+
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0.2); 
+    transform: scale(1.1); 
+    color: #FFF; 
+}
+
+.navbar a:active {
+    transform: scale(0.9);
+}
+
+.profil{
+    display: flex;
+    height: 20%;
+    width: 90px;
+    justify-content: flex-end;
+    margin-right: 50px;
+    transition: transform 0.3s ease;
+}
+
+.profil:hover {
+    transform: scale(1.1);
+}
+/* Content from src/pages\game\game.css */
+
+.game-container{
+    display: flex;
+    background-color: #304673;
+    height: 100vh;
+}
+
+.block-container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25%;
+    justify-content:space-evenly; 
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    height: 90vh;
+}
+
+.jeu_tetrys{
+    display: inline-block;
+    height: 95%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.jeu_tetrys img{
+    max-height: 100%;
+    display: block;
+}
+.jeu_tetrys a{
+    max-height: 100%;
+    display: block;
+}
+
+.jeu_tetrys a img{
+    max-height: 100%;
+    display: block;
+}
+
+.separation{
+    display: block;
+    width: 6px;
+    height: 80%;
+    background-color: grey;
+    margin-top: 20%;
+    margin-left: 5vw;
+}
+
+.playable-content{
+    flex: 3;
+    display: inline;
+}
+
+.logo-container{
+    justify-content: center;
+    height: 20%;
+    text-align: center;
+    display: flex;
+}
+
+.logo-container img{
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+.words-container{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    justify-content: space-evenly;
+}
+
+.writing-space{
+    margin-top: 6%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.chrono-container{
+    margin-top: 3%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.chrono img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+button.end-button{
+    margin: 20px auto;
+}
+/* Content from src/components/word-game/word-game.css */
+.word{
+    display: flex;
+    text-align: center;
+    background-color: #F27F1B;
+    box-shadow: 0px 0px 5px#F27F1B;
+    border-radius: 10px;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    
+}
+
+.word P{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /* Content from src/pages\game\endGameStat.css */
 .end-stat-container {
     position: fixed;
@@ -10,7 +289,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center;
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 .end-stat-content {
@@ -23,16 +302,14 @@
 }
 
 .vertical-bar {
-    border: 2px solid #E01B24;
     margin: -2px auto 0;
     width: 150px;
     border-radius: 5px;
-    background-color: #4E89C8;
+    background-color: #4a5d83;
     height: 130px;
     display: flex;
     justify-content: center;
     align-self: center;
-    border-top: 2px solid #4E89C8;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
@@ -40,33 +317,92 @@
 .vertical-bar a {
     margin: auto 0;  
     text-decoration: none;
-    -webkit-text-fill-color: #4E89C8;
+    -webkit-text-fill-color: #fff;
 }
 
-.vertical-bar button{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    height: 90px;
-    width: 120px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.1s ease-in-out;
-    color: #4E89C8;
+.replay-button-container{
+    transform: scale(1.3);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
 }
 
-.vertical-bar button:hover{
-    transform: scaleZ(0);
-    transform: scale(1.1);
+.replay-button {
+  box-shadow: 0px 0px 10px #F27F1B;
+  appearance: button;
+  background-color: #b76115;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.replay-button:after {
+  background-clip: padding-box;
+  background-color: #F27F1B;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.replay-button:main,
+.replay-button:focus {
+  user-select: auto;
+}
+
+.replay-button:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.replay-button:disabled {
+  cursor: auto;
+}
+
+.replay-button:active {
+  border-width: 2px 0 0;
+  background: none;
+}
+
+.replay-button a{
+    font-weight: 900;
+    -webkit-text-fill-color: #fff;
 }
 
 .horizontal-bar {
     z-index: 2;
     height: 130px;
-    background-color: #4E89C8;
-    border: 2px solid #E01B24;
+    background-color: #4a5d83;
     width: 80%;
     margin: 80px auto 0;
     display: flex;
@@ -76,6 +412,7 @@
     border-radius: 5px;
     flex-direction: column;
 }
+
 
 .score-text {
     font-size: 50px; 
@@ -88,8 +425,8 @@
 .note-text {
     margin-top: -10px;
     font-size: 30px;
-    color: #f9b384;
-    font-weight: 500;
+    color: #F27F1B;
+    font-weight: 900;    
 }
 
 
@@ -170,6 +507,8 @@ aside {
 
 aside {
     flex: 1;
+/* Content from src/components/student/student.css */
+.student-container{
     display: flex;
     justify-content: left;
     height: 90vh;
@@ -211,6 +550,11 @@ aside {
 }
 
 .logo-container{
+    margin-top: 20px;
+}
+/* Content from src/components/features-button/features-button.css */
+.features-button-container {
+    display: flex;
     justify-content: center;
     height: 20%;
     text-align: center;
@@ -465,43 +809,16 @@ a{
 
 .input-container button{
     flex: 1;
+    pointer-events: none;
+    cursor: none;
 }
-/* Content from src/pages\statistiques\statistiques.css */
-.stat-container{
-    display: flex;
-    height: 100vh;
-}
+/* Content from src/pages\login\login.css */
 
-
-
-aside{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
-.student-list{
-    height: 80%;
-    border: black 2px solid;
-    margin-bottom: 15%;
-}
-
-.student-list img{
-    max-height: 50%;
-    max-width: 50%;
-}
-
-.stat{
-    flex: 4;
-    display: inline;
-}
-
-/* Content from src/pages\pre-game\pre-game.css */
+/* Content from src/pages\config\config.css */
 
 .game-container{
     display: flex;
-    background-color: lightblue;
+    background-color: #304673;
     height: 100vh;
 }
 
@@ -542,88 +859,57 @@ aside {
     margin-left: 5vw;
 }
 
-.playable-content{
-    flex: 3;
-    display: inline;
-}
-
-.logo-container{
-    justify-content: center;
-    height: 20%;
-    text-align: center;
-    display: flex;
-}
-
-.logo-container img{
-    max-height: 100%;
-    max-width: 100%;
-    display: flex;
-}
-
-.popup a{
-    height: 20%;
-    text-align: center;
-    display: block;
-}
-.popup a img{
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-}
-
-.words-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 8%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 8%;
-}
-
-.writing-space{
-    margin-top: 6%;
-    width: 70%;
-    margin-left: 15%;
-}
-
-
-.chrono-container{
-    margin-top: 3%;
-    width: 40%;
-    margin-left: 30%;
-}
-
-.chrono img{
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-}
 
 .popup{
+    transform: translate(-50%, -50%);
+    display: flex;
     position: fixed;
-    top: 20%;
-    left: 30%;
-    width: 40%;
-    height: 60%;
-    background-color: #FF931E;
+    top: 50%;
+    left: 50%;
+    background-color: #4a5d83;
     border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 30.0);
+    box-shadow: 0 0 15px rgba(107, 204, 242,0.7);
     text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 10px 20px;
 }
 
-.level{
-    display: block;
-    border: #333333 solid 2px;
-    padding: 20px 0;
-    margin: 0 15% 4% 15%;
-    border-radius: 20px;
+.popup .form-cell{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 93%;
 }
 
-#debutant{
-    background-color: lightgreen;
+
+.popup-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-#intermediaire{
-    background-color: lightblue;
+
+.popup h2{
+    margin: 50px 50px 0;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #fff;
+}
+
+.popup .form-cell input[type=text]{
+    margin-top: 10px;
+    width: 15vh;
+}
+
+input[type=text]{
+    margin-right: 50px;
+}
+
+
+.form-cell label input[type=radio] {
+    width: auto;
 }
 #avance{
     background-color: palevioletred;
@@ -665,20 +951,92 @@ aside {
 .jeu_tetrys a img{
     max-height: 100%;
     display: block;
+
+label{
+    font-weight: 500;
+    font-size: 1vw;
+    color: #fff;
+    margin-top: 10px;
 }
 
-.separation{
-    display: block;
-    width: 6px;
-    height: 80%;
-    background-color: grey;
-    margin-top: 20%;
-    margin-left: 5vw;
+span{
+    font-weight: 100;
+    font-size: 1vw;
+    color: #fff;
 }
 
-.playable-content{
-    flex: 3;
-    display: inline;
+.popup-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 746px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.start-button{
+    transform: scale(1.3);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.play-button {
+  box-shadow: 0px 0px 10px #F27F1B;
+  appearance: button;
+  background-color: #b76115;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.play-button:after {
+  background-clip: padding-box;
+  background-color: #F27F1B;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.play-button:main,
+.play-button:focus {
+  user-select: auto;
+}
+
+.play-button:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
 }
 
 .logo-container{
@@ -686,6 +1044,26 @@ aside {
     height: 20%;
     text-align: center;
     display: flex;
+.play-button:disabled {
+  cursor: auto;
+}
+
+.play-button:active {
+  border-width: 2px 0 0;
+  background: none;
+}
+
+.start-button a{
+    font-weight: 900;
+    -webkit-text-fill-color: #fff;
+}
+
+/* Content from src/components/logo-container/logo-container.css */
+
+/* Content from src/components/login-input/login-input.css */
+
+.form-cell {
+    margin-bottom: 15px;
 }
 
 .logo-container img{
@@ -707,6 +1085,31 @@ aside {
     margin-top: 6%;
     width: 70%;
     margin-left: 15%;
+.form-cell label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-cell input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-cell button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-cell button:hover {
+    background-color: #0056b3;
 }
 
 .chrono-container{
@@ -719,6 +1122,12 @@ aside {
     max-height: 100%;
     max-width: 100%;
     display: block;
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
 }
 
 button.end-button{
@@ -733,6 +1142,84 @@ button.end-button{
 /* Content from src/components/features-button/features-button.css */
 .features-button-container {
     display: flex;
+.input-container input{
+    flex: 5;
+}
+
+.input-container button{
+    flex: 1;
+}
+/* Content from src/components/block/block.css */
+.block{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-height:100%;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.block img {
+    max-width:100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+.word{
+    max-width: 100%;
+}
+/* Content from src/pages\pre-game\pre-game.css */
+
+.game-container{
+    display: flex;
+    background-color: #304673;
+    height: 100vh;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    height: 90vh;
+}
+
+.jeu_tetrys{
+    display: inline-block;
+    height: 95%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.jeu_tetrys img{
+    max-height: 100%;
+    display: block;
+}
+.jeu_tetrys a{
+    max-height: 100%;
+    display: block;
+}
+
+.jeu_tetrys a img{
+    max-height: 100%;
+    display: block;
+}
+
+.separation{
+    display: block;
+    width: 6px;
+    height: 80%;
+    background-color: grey;
+    margin-top: 20%;
+    margin-left: 5vw;
+}
+
+.playable-content{
+    flex: 3;
+    display: inline;
+}
+
+.logo-container{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -741,11 +1228,105 @@ button.end-button{
 .button-container {
     margin: 0 10px;
     display: flex;
+}
+
+.background-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+}
+
+.difficulty-container a{
+    height: 20%;
+    text-align: center;
+    display: block;
+    -webkit-text-fill-color: #fff;
+}
+
+.difficulty-container a img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.level span{
+    font-size: 1.3vw;
+}
+
+
+.difficulty-content{
+    color: #fff;
+}
+
+.words-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.writing-space{
+    margin-top: 6%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+.chrono-container{
+    margin-top: 3%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.chrono img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.difficulty-container{
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    height: 60%;
+    background-color: #4a5d83;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(107, 204, 242,0.7);
     text-align: center;
 }
 
 .button-container a{
     -webkit-text-fill-color: #fff;
+.level{
+    display: block;
+    padding: 20px 0;
+    margin: 0 15% 4% 15%;
+    border-radius: 20px;
+}
+
+#debutant{
+    background-color: rgb(57, 183, 57);
+    box-shadow: 0px 0px 20px rgba(16, 255, 16, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+#intermediaire{
+    background-color: rgb(242, 127, 27);
+    box-shadow: 0px 0px 20px rgba(255, 119, 0, 0.8);
+    transition: transform 0.3s ease-in-out;
+}
+#avance{
+    background-color: rgb(191, 49, 36);
+    box-shadow: 0px 0px 20px rgba(255, 21, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+#perso{
+    background-color: rgb(107, 204, 242);
+    box-shadow: 0px 0px 20px rgba(0, 183, 255, 0.5);
+    transition: transform 0.3s ease-in-out;
 }
 
 .features-button-1 button {
@@ -758,6 +1339,42 @@ button.end-button{
 
 .features-button-3 button {
     background-color: #28a745; 
+#debutant:hover,
+#intermediaire:hover,
+#perso:hover,
+#avance:hover{
+    transform: scaleZ(0);
+    transform: scale(1.1);
+}
+/* Content from src/components/login/login.css */
+.login-container{
+    width: 70%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container img{
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Content from src/pages\page2\page2.css */
+.page2 {
+    color: blue;
+}
+/* Content from src/components/form/form.css */
+
+.form-cell {
+    margin-bottom: 15px;
 }
 
 .features-button-1 button ,
@@ -832,5 +1449,9 @@ button.end-button{
 
 .navbar ul li a:hover {
     background-color: green;
+/* Content from src/components/stat-graph/stat-graph.css */
+.graph-container{
+    display: flex;
+    flex-direction: row;
 }
 

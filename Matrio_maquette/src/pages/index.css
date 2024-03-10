@@ -6,6 +6,7 @@ html {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
 }
 
 body {

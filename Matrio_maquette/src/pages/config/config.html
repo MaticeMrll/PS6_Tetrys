@@ -16,41 +16,30 @@
             </div>
             <div class="separation"></div>
         </aside>
-
-        <div class="playable-content">
-            <matrio path="components/logo-container/logo-container"> </matrio>
-            <div class="words-container">
-                <matrio path="components/word-game/word-game">Bonjour</matrio>
-                <matrio path="components/word-game/word-game">Salut</matrio>
-                <matrio path="components/word-game/word-game">Bienvenue</matrio>
-            </div>
-
-            <div class="writing-space">
-                <matrio path="components/form/form"> Rentrer un des 3 mots ci-dessus </matrio>
-            </div>
-
-            <div class="chrono-container">
-                <matrio path="components/chrono/chrono"></matrio>
-            </div>
-        </div>
-
-        <div class="popup">
-            <div class="popup-content">
-                <h2>Caractéristiques de la configuration de la partie</h2>
-                <div class="form-cell">
-                    <label for="username"> Temps maximum par tour </label>
-                    <input type="text" placeholder="Actual: 8 sec" name="username" required>
-                </div>
-                <div class="form-cell">
-                    <label for="username"> Longueur maximale de mot </label>
-                    <input type="text" placeholder="Actual: 10" id="username" name="username" required>
-                </div>
-                <div class="form-cell">
-                    <div>
-                        <span> <strong> Droit à l'erreur: </strong>  </span>
+        <div class="popup-container">
+            <div class="popup">
+                <div class="popup-content">
+                    <h2>Créer une nouvelle configuration</h2>
+                    <div class="form-cell">
+                        <label for="username"> Temps maximum par tour </label>
+                        <input type="text" placeholder="Actual: 8 sec" name="username" required>
                     </div>
-                    <label> <input type="radio" name="erreur"> <span>oui</span> </label>
-                    <label> <input type="radio" name="erreur"> <span>non</span> </label>
+                    <div class="form-cell">
+                        <label for="username"> Longueur maximale de mot </label>
+                        <input type="text" placeholder="Actual: 10" id="username" name="username" required>
+                    </div>
+                    <div class="form-cell">
+                        <div>
+                            <span> <strong> Droit à l'erreur: </strong>  </span>
+                        </div>
+                        <label> <input type="radio" name="erreur"> <span>oui</span> </label>
+                        <label> <input type="radio" name="erreur"> <span>non</span> </label>
+                    </div>
+                    <div class="start-button">
+                        <a href="/game.html">
+                            <button class="play-button" role="button">Jouer</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

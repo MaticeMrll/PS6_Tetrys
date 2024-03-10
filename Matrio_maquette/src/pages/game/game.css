@@ -85,10 +85,42 @@ aside {
     margin-left: 15%;
 }
 
+.arrows-container{
+    position: absolute;
+    display: flex;
+    margin-left: 1%;
+    flex-direction: column;
+    width: 12%;
+    height: 20%;
+}
+
+.rotational-arrows{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.rotational-arrows > img{
+    max-width: 100%;
+}
+
+.horizontal-arrows{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.horizontal-arrows > img{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+
+
 .chrono-container{
     margin-top: 3%;
     width: 40%;
-    margin-left: 30%;
+    margin-left: 3%;
 }
 
 .chrono img{

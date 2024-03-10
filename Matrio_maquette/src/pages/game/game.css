@@ -90,7 +90,7 @@ aside {
     display: flex;
     margin-left: 1%;
     flex-direction: column;
-    width: 12%;
+    width: 9%;
     height: 20%;
 }
 
@@ -120,7 +120,8 @@ aside {
 .chrono-container{
     margin-top: 3%;
     width: 40%;
-    margin-left: 3%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .chrono img{

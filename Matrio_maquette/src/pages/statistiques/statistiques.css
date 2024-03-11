@@ -24,7 +24,7 @@
     width: 20vw;
     display: flex;
     flex-direction: column;
-    height: 15vw;
+    height: 13vw;
     margin: 50px 25px 10px 50px;
     padding: 15px 0;
     background-color: #4a5d83;
@@ -125,7 +125,7 @@
     background-color: #4a5d83;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
     width: 100%;
-    height: 20vw;
+    height: 17vw;
     margin: 50px 50px 25px 25px;
     border-radius: 15px;
     padding: 15px 40px;
@@ -140,6 +140,11 @@
     height: 100%; 
     padding: 15px;
     margin: 1px;
+    scroll-snap-type: x proximity; 
+}
+
+.scroll-container-progression > * > * {
+    scroll-snap-align: start; 
 }
 
 .scroll-container-student {
@@ -148,6 +153,11 @@
     width: 100%; 
     height: 100%; 
     padding: 0;
+    scroll-snap-type: y mandatory;
+}
+
+.scroll-container-student > * {
+    scroll-snap-align: start; 
 }
 
 .scroll-container-student > :first-child {
@@ -198,6 +208,11 @@
 .scroll-container-historical{
     overflow-y: auto;
     overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+}
+
+.scroll-container-historical > * {
+    scroll-snap-align: start; 
 }
 
 .headers-list{

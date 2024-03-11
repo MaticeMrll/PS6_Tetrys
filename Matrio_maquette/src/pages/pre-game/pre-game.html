@@ -25,6 +25,8 @@
                         <matrio path="components/student/student">Matice</matrio>
                         <matrio path="components/student/student">Eliot</matrio>
                         <matrio path="components/student/student">Romain</matrio>
+                        <matrio path="components/student/student">Lucas</matrio>
+                        <matrio path="components/student/student">Thomas</matrio>
                     </div>
                 </div>
                 <div class="add-student">
@@ -34,30 +36,43 @@
             <div class="difficulty-container">
                 <div class="difficulty-content">
                     <h2>Choix du niveau</h2>
-                    <a href="/game.html">
-                        <div class="level" id="debutant">
-                           <span>Débutant</span>
-                        </div>
-                    </a>
-                    <a href="/game.html">
-                        <div class="level" id="intermediaire">
-                             <span>Intermediaire</span>
-                        </div>
-                    </a>
-                    <a href="/game.html">
-                        <div class="level" id="avance">
-                             <span>Avancé</span>
-                        </div>
-                    </a>
-                    <a href="/config.html">
-                        <div class="level" id="perso">
-                            <span>Personnalisé</span>
-                        </div>
-                    </a>
+                    <div class="level" id="debutant">
+                        <span>Débutant</span>
+                    </div>
+                    <div class="level" id="intermediaire">
+                        <span>Intermédiaire</span>
+                    </div>
+                    <div class="level" id="avance">
+                        <span>Avancé</span>
+                    </div>
+                    <div class="level" id="perso">
+                        <span>Personnalisé</span>
+                    </div>
                 </div>
+            </div>
+            <div class="mode-info-container">
+                <p>Temps par caractère : <span>5sec</span></p>
+                <p>Longueur max par mot : <span>5</span></p>
+                <p>Droit à l'erreur : <span>Oui</span></p>
             </div>
         </div>
     </div>
 
+    <script>
+        const levels = document.querySelectorAll('.level:not(:last-child)');
+
+        levels.forEach(level => {
+            level.addEventListener('mouseenter', () => {
+            const modeInfoContainer = document.querySelector('.mode-info-container');
+                modeInfoContainer.classList.add('show');
+            });
+
+            level.addEventListener('mouseleave', () => {
+                const modeInfoContainer = document.querySelector('.mode-info-container');
+                modeInfoContainer.classList.remove('show');
+            });
+        });
+
+    </script>
 </body>
 </html>

@@ -47,24 +47,110 @@
 }
 /* Content from src/components/login/login.css */
 .login-container{
-    width: 70%;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fff;
+    backdrop-filter: blur(10px);
+    background-color: #4a5d83;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+    border-radius: 15px;
+    width: 30%;
+    height: 60%;
 }
 
 .login-container h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #fff;
+    font-size: x-large;
 }
 
 .login-container img{
     display: block;
-    width: 20%;
-    height: 20%;
+    width: 40%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 25px 10px 50px;
+}
+
+.login-button {
+  box-shadow: 0px 0px 10px #F27F1B;
+  appearance: button;
+  background-color: #b76115;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.login-button:after {
+  background-clip: padding-box;
+  background-color: #F27F1B;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.login-button:main,
+.login-button:focus {
+  user-select: auto;
+}
+
+.login-button:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.login-button:disabled {
+  cursor: auto;
+}
+
+.login-button:active {
+  border-width: 2px 0 0;
+  background: none;
 }
 /* Content from src/components/student/student.css */
 .student{
@@ -1500,4 +1586,6 @@ a{
   text-decoration-line: none;
 }
 /* Content from src/pages\login\login.css */
-
+body{
+    background-color: #304673;
+}

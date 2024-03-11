@@ -63,7 +63,7 @@ aside {
 .background-overlay{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.92);
     position: fixed;
 }
 
@@ -163,4 +163,15 @@ aside {
 #avance:hover{
     transform: scaleZ(0);
     transform: scale(1.1);
+}
+
+.pregame-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }

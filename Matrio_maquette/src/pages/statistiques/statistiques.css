@@ -1,30 +1,220 @@
 .stat-container{
     display: flex;
-    height: 100vh;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     background-color: #304673;
+    box-sizing: border-box;
 }
 
-
-
-aside{
-    flex: 1;
+.top-container{
     display: flex;
-    flex-direction: column;
-    justify-content: left;
+    height: auto;
+}
+
+.bottom-container{
+    display: flex;
+    height: 100%;
+    margin-bottom: 50px;
+    overflow: hidden;
 }
 
 .student-list{
-    height: 80%;
-    border: black 2px solid;
-    margin-bottom: 15%;
+    object-fit: contain;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    height: 15vw;
+    margin: 50px 25px 10px 50px;
+    padding: 15px 0;
+    background-color: #4a5d83;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
-.student-list img{
-    max-height: 50%;
-    max-width: 50%;
-}
 
 .stat{
     flex: 4;
     display: inline;
+}
+
+.student-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+
+.add-student{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 25px 10px 50px;
+}
+
+.add-button {
+  box-shadow: 0px 0px 10px #F27F1B;
+  appearance: button;
+  background-color: #b76115;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.add-button:after {
+  background-clip: padding-box;
+  background-color: #F27F1B;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.add-button:main,
+.add-button:focus {
+  user-select: auto;
+}
+
+.add-button:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.add-button:disabled {
+  cursor: auto;
+}
+
+.add-button:active {
+  border-width: 2px 0 0;
+  background: none;
+}
+
+
+.progression-container{
+    display: flex;
+    background-color: #4a5d83;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+    width: 100%;
+    height: 20vw;
+    margin: 50px 50px 25px 25px;
+    border-radius: 15px;
+    padding: 15px 40px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.scroll-container-progression {
+    overflow-x: auto; 
+    overflow-y: hidden;
+    width: 100%; 
+    height: 100%; 
+    padding: 15px;
+    margin: 1px;
+}
+
+.scroll-container-student {
+    overflow-y: auto; 
+    overflow-x: hidden;
+    width: 100%; 
+    height: 100%; 
+    padding: 0;
+}
+
+.scroll-container-student > :first-child {
+    background-color: rgba(48, 70, 115,0.8);
+}
+
+
+.scroll-container-progression::-webkit-scrollbar,
+.scroll-container-student::-webkit-scrollbar,
+.scroll-container-historical::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent; 
+}
+
+.scroll-container-progression::-webkit-scrollbar-thumb,
+.scroll-container-student::-webkit-scrollbar-thumb,
+.scroll-container-historical::-webkit-scrollbar-thumb {
+    background-color: #304673;
+    border-radius: 10px; 
+}
+
+
+.historical-list{
+    object-fit: contain;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 15px 0;
+    background-color: #4a5d83;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+
+.historical-container{
+    margin: 25px 50px 50px 50px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
+
+.scroll-container-historical{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.headers-list{
+    margin: 0 10px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.headers-list > p > * :first-child {
+    margin-right: 50px;
+}
+.headers-list > p > * :last-child {
+    margin-left: 50px;
+}
+
+.headers-list p {
+    font-weight: bold;
+    color: #FFFFFF;
 }

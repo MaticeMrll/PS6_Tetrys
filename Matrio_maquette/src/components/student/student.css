@@ -1,4 +1,25 @@
-.student-container{
+.student{
     display: flex;
-    margin-top: 20px;
+    flex-direction: row;
+    margin: 0px 27px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px 0px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.student img{
+    max-height: 3vw;
+    max-width: auto;
+}
+
+
+.student p{
+    color: white;
+    font-size: 1.2vw;
+    margin: 0px;
+}
+
+.student:hover{
+    background-color: rgba(48, 70, 115,0.8);
 }

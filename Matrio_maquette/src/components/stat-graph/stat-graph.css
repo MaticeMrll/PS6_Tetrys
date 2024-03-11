@@ -1,10 +1,24 @@
 .graph-container{
     display: flex;
     height : 200px;
+    margin: 0px 60px 0px 0px;
 }
 .stat-graph{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stat-graph img{
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(41, 41, 41, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.graph-container img:hover{
+    transform: translateZ(0);
+    transform: scale(1.05);
 }

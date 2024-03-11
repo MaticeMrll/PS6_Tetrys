@@ -1,0 +1,8 @@
+.profil-container {
+    width: 15%;
+    margin-left: 2%;
+}
+
+.profil-container > img{
+    max-width: 100%;
+}

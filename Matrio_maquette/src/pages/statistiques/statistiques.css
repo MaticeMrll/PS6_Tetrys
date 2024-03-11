@@ -150,6 +150,11 @@
     padding: 0;
 }
 
+.scroll-container-student > :first-child {
+    background-color: rgba(48, 70, 115,0.8);
+}
+
+
 .scroll-container-progression::-webkit-scrollbar,
 .scroll-container-student::-webkit-scrollbar,
 .scroll-container-historical::-webkit-scrollbar {
